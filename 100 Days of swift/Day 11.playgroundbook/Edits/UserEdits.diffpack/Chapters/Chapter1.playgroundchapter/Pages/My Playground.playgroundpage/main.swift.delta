@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Protocols
+protocol Identifiable {
+    var id: String { get set }
+}
+
+struct User: Identifiable {
+    var id: String
+}
+
+func displayID(thing: Identifiable) {
+    print("My ID is \(thing.id)")
+}
+
+// Protocol inheritance
+protocol Payable {
+    func calculateWages() -&gt; Int
+}
+
+protocol NeedsTraining {
+    func study()
+}
+
+protocol HasVacation {
+    func takeVacation(days: Int)
+}
+
+protocol Employee: Payable, NeedsTraining, HasVacation {}
+
+// Extensions
+extension Int {
+    func squared() -&gt; Int {
+        return self * self
+    }
+}
+
+let number = 8
+number.squared()
+
+extension Int {
+    var isEven: Bool {
+        return self % 2 == 0
+    }
+}
+
+number.isEven
+
+// Protocol extensions
+let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
+let beatles = Set(["John", "Paul", "George", "Ringo"])
+
+extension Collection {
+    func summarize() {
+        print("There are \(count) of us")
+        
+        for name in self {
+            print(name)
+        }
+    }
+}
+
+pythons.summarize()
+beatles.summarize()
+
+// Protocol-oriented programming
+protocol IdentifiablePOP {
+    var id: String { get set }
+    func identify()
+}
+
+extension IdentifiablePOP {
+    func identify() {
+        print("My ID is \(id)")
+    }
+}
+
+struct UserPOP: IdentifiablePOP {
+    var id: String
+}
+
+let twostraws = UserPOP(id: "twostraws")
+twostraws.identify()
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1337}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

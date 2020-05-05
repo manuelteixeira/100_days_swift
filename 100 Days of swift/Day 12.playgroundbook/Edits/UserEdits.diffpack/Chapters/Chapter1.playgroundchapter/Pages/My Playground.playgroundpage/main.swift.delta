@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Handling missing data
+var age: Int? = nil
+age = 29
+
+// Unwrapping optionals
+var name: String? = nil
+
+if let unwrapped = name {
+    print("\(unwrapped.count) letter")
+} else {
+    print("Missing name.")
+}
+
+// Unwrapping with guard
+func greet(_ name: String?) {
+    guard let unwrapped = name else {
+        print("You didn't provide a name!")
+        return
+    }
+    
+    print("Hello, \(unwrapped)!")
+}
+
+// Force unwrapping
+let str = "5"
+let num = Int(str)!
+
+// Implicitly unwrapped optionals
+let years: Int! = nil
+
+// Nil coalescing
+func username(for id: Int) -&gt; String? {
+    if id == 1 {
+        return "Taylor Swift"
+    } else {
+        return nil
+    }
+}
+
+let user = username(for: 15) ?? "Anonymous"
+
+// Optional chaining
+let names = ["John", "Paul", "George", "Ringo"]
+let beatle = names.first?.uppercased()
+
+// Optional try
+enum PasswordError: Error {
+    case obvious
+}
+
+func checkPassword(_ password: String) throws -&gt; Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    } 
+    return true
+}
+
+if let result = try? checkPassword("password") {
+    print("Result was \(result)")
+} else {
+    print("D'oh")
+}
+
+try! checkPassword("sekrit")
+print("Ok!")
+
+// Failable initializers
+struct Person {
+    var id: String
+    
+    init?(id: String) {
+        if id.count == 9 {
+            self.id = id
+        } else {
+            return nil
+        }
+    }
+}
+
+let person = Person(id: "12")
+person?.id
+
+// Typecasting
+class Animal {}
+class Fish: Animal {}
+class Dog: Animal {
+    func makeNoise() {
+        print("Woof")
+    }
+}
+
+let pets = [Fish(), Dog(), Fish(), Dog()]
+
+for pet in pets {
+    if let dog = pet as? Dog {
+        dog.makeNoise()
+    } 
+}
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1684}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

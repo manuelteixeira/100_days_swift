@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Variables and constants
+var name = "Tim"
+name = "Romeo"
+
+//  let nameConstant = "Tim"
+//  nameConstant = "Romeo"
+//  
+//  var sameName = "Tim"
+//  var sameName = "Romeo"
+
+// Types of data 
+var nameNoDataType = "Tim"
+var nameWithType: String
+nameWithType = "Tim"
+
+// String interpolation
+var nameInterpolation = "Tim McGraw"
+var age = 25
+var latitude = 36.166667
+
+"Your name is \(nameInterpolation), your age is \(age), and your latitude is \(latitude)"
+
+// Arrays
+var evenNumbers = [2, 4, 6, 8]
+var songs = ["Shake it Off", "You Belong with Me", "Back to December"]
+
+songs[0]
+songs[1]
+songs[2]
+type(of: songs)
+
+//  var songs1: [String]
+//  songs1[0] = "Shake it Off" // error
+
+var songs2: [String] = []
+var songs3 = [String]()
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 730}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
