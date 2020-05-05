@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Using closures as parameters when they accept parameters
+func travel(action: (String) -&gt; Void) {
+    print("I'm getting ready to go.")
+    action("London")
+    print("I arrived")
+}
+
+travel { (place: String) in
+    print("I'm going to \(place) in my car")
+}
+
+// Using closures as parameters when they return values
+func travelWithReturnClosure(action: (String) -&gt; String) {
+    print("I'm getting ready to go.")
+    let description = action("London")
+    print(description)
+    print("I arrived")
+} 
+
+travelWithReturnClosure { (place: String) -&gt; String in
+    return "I'm going to \(place) in my car."
+}
+
+// Shorthand parameter names
+travelWithReturnClosure {
+    return "I'm going to \($0) in my car."
+}
+
+// Closures with multiple parameters
+func travelWithMultipleParams(action: (String, Int) -&gt; String) {
+    print("I'm getting ready to go.")
+    let description = action("London", 60)
+    print(description)
+    print("I arrived")
+} 
+
+travelWithMultipleParams { 
+    "I'm going to \($0) at \($1) miles per hour."
+}
+
+// Returning closures from functions
+func travelReturnClosures() -&gt; (String) -&gt; Void {
+    return {
+        print("I'm going to \($0)")
+    }
+}
+
+let result = travelReturnClosures()
+result("London")
+
+let result2 = travelReturnClosures()("London")
+
+// Capturing values
+func travelWithCounter() -&gt; (String) -&gt; Void {
+    var counter = 1
+    return {
+        print("\(counter). I'm going to \($0)")
+        counter += 1
+    }
+}
+
+let resultCounter = travelWithCounter()
+resultCounter("London")
+resultCounter("London")
+resultCounter("London")
+resultCounter("London")
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1583}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{0, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

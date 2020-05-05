@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Writing functions
+func printHelp() {
+    let message = """
+Welcome to MyApp!
+
+Test writing functions topic
+"""
+    print(message)
+}
+
+printHelp()
+
+// Accepting parameters
+func square(number: Int ) {
+    print(number * number)
+}
+
+square(number: 8)
+
+// Returning values
+func squareReturningValues(number: Int) -&gt; Int {
+    return number * number
+}
+
+let result = squareReturningValues(number: 8)
+print(result)
+
+// Parameter labels
+func sayHello(to name: String) {
+    print("Hello, \(name)!")
+}
+
+sayHello(to: "Taylor")
+
+// Omitting parameter labels
+func greet(_ person: String) {
+    print("Hello, \(person)!")
+}
+
+greet("Taylor")
+
+// Default parameters
+func greetDefaultParameters(_ person: String, nicely: Bool = true) {
+    if nicely == true {
+        print("Hello, \(person)!")
+    } else {
+        print("Oh no, it's \(person) again...")
+    }
+}
+
+greetDefaultParameters("Taylor")
+greetDefaultParameters("Taylor", nicely: false)
+
+// Variadic functions
+func squareVariadic(numbers: Int...) {
+    for number in numbers {
+        print("\(number) squared is \(number * number)")
+    }
+}
+
+squareVariadic(numbers: 1, 2, 3, 4, 5)
+
+// Writing throwing functions
+enum PasswordError: Error {
+    case obvious
+}
+
+func checkPassword(_ password: String) throws -&gt; Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+    
+    return true
+}
+
+// Running throwing functions
+do {
+    try checkPassword("password")
+    print("That password is good!")
+} catch {
+    print("You can't use that password.")
+}
+
+// inout parameters
+func doubleInPlace(number: inout Int) {
+    number *= 2
+}
+
+var myNum = 10
+doubleInPlace(number: &amp;myNum)
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1643}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>

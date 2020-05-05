@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Creating your own structs
+struct Sport {
+    var name: String
+}
+
+var tennis = Sport(name: "Tennis")
+print(tennis.name)
+
+tennis.name = "Learn tennis"
+
+
+// Computed properties
+struct SportComputed {
+    var name: String
+    var isOlympicSport: Bool
+    
+    var olympicStatus: String {
+        if isOlympicSport {
+            return "\(name) is an Olympic sport"
+        } else {
+            return "\(name) is not a Olympic sport"
+        }
+    }
+}
+
+let chessBoxing = SportComputed(name: "ChessBoxing", isOlympicSport: false)
+print(chessBoxing.olympicStatus)
+
+// Property observers
+struct Progress {
+    var task: String
+    var amount: Int {
+        didSet {
+            print("\(task) is now \(amount) complete")
+        }
+    }
+}
+
+var progress = Progress(task: "Loading data", amount: 0)
+progress.amount = 30
+progress.amount = 80
+progress.amount = 100
+
+// Methods
+struct City {
+    var population: Int
+    
+    func collectTaxes() -&gt; Int {
+        return population * 1000
+    }
+}
+
+let london = City(population: 9_000_000)
+london.collectTaxes()
+
+// Mutating methods
+struct Person {
+    var name: String
+    
+    mutating func makeAnonymous() {
+        name = "Anonymous"
+    }
+}
+
+var person = Person(name: "Ed")
+person.makeAnonymous()
+
+// Properties and methods of strings
+let string = "Do or do not, there is no try."
+print(string.count)
+print(string.hasPrefix("Do"))
+print(string.uppercased())
+print(string.sorted())
+
+// Properties and methods of arrays
+var toys = ["Woody"]
+print(toys.count)
+toys.append("Buzz")
+print(toys.sorted())
+toys.remove(at: 0)
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 1560}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
