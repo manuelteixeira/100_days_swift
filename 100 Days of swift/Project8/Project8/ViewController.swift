@@ -24,6 +24,8 @@ class ViewController: UIViewController {
             scoreLabel.text = "Score: \(score)"
         }
     }
+    var questionsAnsweredCorrectly = 0
+    let maxQuestions = 7
     var level = 1
     
     override func loadView() {
@@ -127,6 +129,9 @@ class ViewController: UIViewController {
                 letterButton.addTarget(self, action: #selector(letterTapped), for: .touchUpInside)
             }
         }
+        
+        buttonsView.layer.borderColor = UIColor.darkGray.cgColor
+        buttonsView.layer.borderWidth = 2
     }
 
     override func viewDidLoad() {
@@ -156,13 +161,35 @@ class ViewController: UIViewController {
             
             currentAnswer.text = ""
             score += 1
+//            questionsAnsweredCorrectly += 1
             
-            if score % 7 == 0 {
-                let alertController = UIAlertController(title: "Well done", message: "Are you ready for next level?", preferredStyle: .alert)
-                alertController.addAction(UIAlertAction(title: "Let's go", style: .default, handler: levelUp))
-                present(alertController, animated: true)
+            for button in letterButtons {
+                if !button.isHidden {
+                    return
+                }
             }
+            
+            let alertController = UIAlertController(title: "Well done", message: "Are you ready for next level?", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Let's go", style: .default, handler: levelUp))
+            present(alertController, animated: true)
+            
+//            if questionsAnsweredCorrectly == maxQuestions {
+//                let alertController = UIAlertController(title: "Well done", message: "Are you ready for next level?", preferredStyle: .alert)
+//                alertController.addAction(UIAlertAction(title: "Let's go", style: .default, handler: levelUp))
+//                present(alertController, animated: true)
+//            }
+        } else {
+            score -= 1
+            showIncorrectGuessAlert()
         }
+    }
+    
+    func showIncorrectGuessAlert() {
+        let alertController = UIAlertController(title: "Incorrect guess!", message: "Try again", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Ok", style: .default)
+        alertController.addAction(action)
+        
+        present(alertController, animated: true)
     }
     
     func levelUp(action: UIAlertAction) {
