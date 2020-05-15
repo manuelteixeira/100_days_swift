@@ -90,7 +90,7 @@ class ViewController: UITableViewController {
                 return
             }
             
-            self.filterPetitions(text)
+            self.performSelector(inBackground: #selector(self.filterPetitions), with: text)
         }
         
         alertController.addAction(action)
@@ -98,13 +98,13 @@ class ViewController: UITableViewController {
         present(alertController, animated: true)
     }
     
-    func filterPetitions(_ text: String) {
+    @objc func filterPetitions(_ text: String) {
         
         filteredPetitions = petitions.filter({ petition -> Bool in
             return petition.title.contains(text)
         })
         
-        tableView.reloadData()
+        tableView.performSelector(onMainThread: #selector(UITableView.reloadData), with: nil, waitUntilDone: false)
     }
     
     @objc func clearFilteredPetitions() {
