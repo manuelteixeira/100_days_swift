@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "145F2D28-720E-4950-ABCB-C0A32221B237"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EB4E29C0-FA52-42EA-B96C-57087DD462AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Project1/TextCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "EB4E29C0-FA52-42EA-B96C-57087DD462AD - b7e7933bffe50325"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project1.TextCollectionViewCell.__deallocating_deinit"
+                  moduleName = "Project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelteixeira/Work/100%20Days%20of%20swift/Project1b/Project1/TextCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "EB4E29C0-FA52-42EA-B96C-57087DD462AD - 582111597719ce1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project1.TextCollectionViewCell.__allocating_init(frame: __C.CGRect) -&gt; Project1.TextCollectionViewCell"
+                  moduleName = "Project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelteixeira/Work/100%20Days%20of%20swift/Project1b/Project1/TextCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "8">
+               </Location>
+               <Location
+                  uuid = "EB4E29C0-FA52-42EA-B96C-57087DD462AD - 4b8c9d3dc278e62b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project1.TextCollectionViewCell.init(frame: __C.CGRect) -&gt; Project1.TextCollectionViewCell"
+                  moduleName = "Project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelteixeira/Work/100%20Days%20of%20swift/Project1b/Project1/TextCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "113">
+               </Location>
+               <Location
+                  uuid = "EB4E29C0-FA52-42EA-B96C-57087DD462AD - fef3a485b3ec518d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project1.TextCollectionViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Project1.TextCollectionViewCell&gt;"
+                  moduleName = "Project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelteixeira/Work/100%20Days%20of%20swift/Project1b/Project1/TextCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "EB4E29C0-FA52-42EA-B96C-57087DD462AD - 59b48d171f86d682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Project1.TextCollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Project1.TextCollectionViewCell&gt;"
+                  moduleName = "Project1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/manuelteixeira/Work/100%20Days%20of%20swift/Project1b/Project1/TextCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

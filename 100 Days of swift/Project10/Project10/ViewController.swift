@@ -43,7 +43,10 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
     }
     
     @objc func addNewPerson() {
+        guard UIImagePickerController.isSourceTypeAvailable(.camera) else { return }
+
         let picker = UIImagePickerController()
+        picker.sourceType = .camera
         picker.allowsEditing = true
         picker.delegate = self
         
@@ -76,6 +79,25 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let person = people[indexPath.item]
         
+        let optionsAlertController = UIAlertController(title: "What do you want to do?", message: nil, preferredStyle: .actionSheet)
+        
+        let renameAction = UIAlertAction(title: "Rename", style: .default) { [weak self] _ in
+            
+            self?.renamePerson(person)
+        }
+        
+        let deleteAction = UIAlertAction(title: "Delete", style: .destructive) { [weak self] _ in
+            self?.deletePerson(at: indexPath)
+        }
+        
+        optionsAlertController.addAction(renameAction)
+        optionsAlertController.addAction(deleteAction)
+        
+        present(optionsAlertController, animated: true)
+        
+    }
+    
+    func renamePerson(_ person: Person) {
         let ac = UIAlertController(title: "Rename person", message: nil, preferredStyle: .alert)
         
         ac.addTextField()
@@ -93,5 +115,11 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
         
         present(ac, animated: true)
     }
+    
+    func deletePerson(at indexPath: IndexPath) {
+        people.remove(at: indexPath.item)
+        collectionView.deleteItems(at: [indexPath])
+    }
 }
+
 
