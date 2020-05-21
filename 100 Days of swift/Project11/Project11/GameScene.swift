@@ -27,6 +27,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
+    var ballsAvailableLabel: SKLabelNode!
+    var ballsAvailable = 5 {
+        didSet {
+            ballsAvailableLabel.text = "Balls available: \(ballsAvailable)"
+        }
+    }
+    
     override func didMove(to view: SKView) {
         let background = SKSpriteNode(imageNamed: "background")
         background.position = CGPoint(x: 512, y: 384)
@@ -58,6 +65,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         editLabel.text = "Edit"
         editLabel.position = CGPoint(x: 80, y: 700)
         addChild(editLabel)
+        
+        ballsAvailableLabel = SKLabelNode(fontNamed: "ChalkDuster")
+        ballsAvailableLabel.text = "Balls available: 5"
+        ballsAvailableLabel.position = CGPoint(x: 300, y: 700)
+        addChild(ballsAvailableLabel)
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -77,17 +89,30 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 
                 box.physicsBody = SKPhysicsBody(rectangleOf: box.size)
                 box.physicsBody?.isDynamic = false
+                box.name = "box"
                 addChild(box)
-            } else {
-                let ball = SKSpriteNode(imageNamed: "ballRed")
+            } else if ballsAvailable > 0 {
+                let ballName = generateRandomBallName()
+                let ball = SKSpriteNode(imageNamed: ballName)
                 ball.physicsBody = SKPhysicsBody(circleOfRadius: ball.size.width / 2.0)
                 ball.physicsBody?.restitution = 0.4
                 ball.physicsBody?.contactTestBitMask = ball.physicsBody?.collisionBitMask ?? 0
-                ball.position = location
+                let ballLocation = CGPoint(x: location.x, y: 768)
+                ball.position = ballLocation
                 ball.name = "ball"
                 addChild(ball)
+                ballsAvailable -= 1
             }
         }
+    }
+    
+    func generateRandomBallName() -> String {
+        let colors = ["Green", "Blue", "Cyan", "Grey", "Purple", "Red", "Yellow"]
+        
+        let colorName = colors[Int.random(in: 0..<colors.count)]
+        let randomBallName = "ball\(colorName)"
+        
+        return randomBallName
     }
     
     func makeBouncer(at position: CGPoint) {
@@ -130,13 +155,21 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         if object.name == "good" {
             destroy(ball: ball)
             score += 1
+            ballsAvailable += 1
         } else if object.name == "bad" {
             destroy(ball: ball)
             score -= 1
+        } else if object.name == "box" {
+            object.removeFromParent()
         }
     }
     
     func destroy(ball: SKNode) {
+        if let fireParticles = SKEmitterNode(fileNamed: "FireParticles") {
+            fireParticles.position = ball.position
+            addChild(fireParticles)
+        }
+        
         ball.removeFromParent()
     }
     
