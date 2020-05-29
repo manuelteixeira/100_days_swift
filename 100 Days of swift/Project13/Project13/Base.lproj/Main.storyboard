@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="753-Id-pzf">
-                                <rect key="frame" x="20" y="114" width="374" height="621"/>
+                                <rect key="frame" x="20" y="114" width="374" height="577.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZKM-gM-VTd">
-                                        <rect key="frame" x="10" y="10" width="354" height="601"/>
+                                        <rect key="frame" x="10" y="10" width="354" height="557.5"/>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -31,7 +31,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Intensity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AxK-09-SaY">
-                                <rect key="frame" x="20" y="765" width="66" height="21"/>
+                                <rect key="frame" x="20" y="722" width="66" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="UPz-h6-SHk"/>
                                 </constraints>
@@ -40,7 +40,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="V4B-BC-q2N">
-                                <rect key="frame" x="121" y="761" width="275" height="30"/>
+                                <rect key="frame" x="121" y="717.5" width="275" height="31"/>
                                 <connections>
                                     <action selector="intensityChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ei7-qY-N2U"/>
                                 </connections>
@@ -66,10 +66,21 @@
                                     <action selector="changeFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bE0-Qv-G6C"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMF-9F-hNO">
+                                <rect key="frame" x="20" y="751" width="52" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="e3O-35-OPA">
+                                <rect key="frame" x="122" y="755.5" width="274" height="31"/>
+                                <connections>
+                                    <action selector="radiusChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="MeM-rT-yxT"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="nhg-qx-6io" firstAttribute="top" secondItem="AxK-09-SaY" secondAttribute="bottom" constant="12" id="0SJ-ZR-tn5"/>
                             <constraint firstItem="753-Id-pzf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="26" id="0Wq-7F-Yxt"/>
                             <constraint firstItem="V4B-BC-q2N" firstAttribute="top" secondItem="753-Id-pzf" secondAttribute="bottom" constant="26" id="0YQ-QR-WaE"/>
                             <constraint firstItem="V4B-BC-q2N" firstAttribute="leading" secondItem="AxK-09-SaY" secondAttribute="trailing" constant="37" id="85G-aQ-tHG"/>
@@ -80,17 +91,25 @@
                             <constraint firstItem="AxK-09-SaY" firstAttribute="leading" secondItem="nhg-qx-6io" secondAttribute="leading" id="IPG-aU-ayj"/>
                             <constraint firstItem="AxK-09-SaY" firstAttribute="centerY" secondItem="V4B-BC-q2N" secondAttribute="centerY" id="NIU-9X-DFR"/>
                             <constraint firstItem="V4B-BC-q2N" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="aEV-Yk-XLp"/>
-                            <constraint firstItem="nhg-qx-6io" firstAttribute="top" secondItem="V4B-BC-q2N" secondAttribute="bottom" constant="8" id="dSd-fJ-dM4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e3O-35-OPA" secondAttribute="trailing" constant="20" id="bSv-Ya-NsB"/>
+                            <constraint firstItem="EMF-9F-hNO" firstAttribute="top" secondItem="AxK-09-SaY" secondAttribute="bottom" constant="8" id="dCc-fG-cYs"/>
+                            <constraint firstItem="nhg-qx-6io" firstAttribute="top" secondItem="EMF-9F-hNO" secondAttribute="bottom" constant="8" id="dSd-fJ-dM4"/>
+                            <constraint firstItem="e3O-35-OPA" firstAttribute="top" secondItem="V4B-BC-q2N" secondAttribute="bottom" constant="8" id="eOj-n2-8uX"/>
+                            <constraint firstItem="EMF-9F-hNO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="huB-Xi-OdH"/>
                             <constraint firstItem="753-Id-pzf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ise-VH-xAf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nhg-qx-6io" secondAttribute="bottom" constant="20" id="kJ4-bI-YPA"/>
                             <constraint firstItem="nhg-qx-6io" firstAttribute="baseline" secondItem="v3H-Du-Opn" secondAttribute="firstBaseline" id="nUl-85-0Qw"/>
+                            <constraint firstItem="e3O-35-OPA" firstAttribute="leading" secondItem="EMF-9F-hNO" secondAttribute="trailing" constant="52" id="sCb-0w-XmA"/>
+                            <constraint firstItem="e3O-35-OPA" firstAttribute="centerY" secondItem="EMF-9F-hNO" secondAttribute="centerY" id="wSg-3E-Ue6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="sFk-fy-gtg"/>
                     <connections>
+                        <outlet property="filterButton" destination="nhg-qx-6io" id="dfP-hB-6eT"/>
                         <outlet property="imageView" destination="ZKM-gM-VTd" id="fqk-PS-Pwl"/>
                         <outlet property="intensitySlider" destination="V4B-BC-q2N" id="mA3-bm-ajb"/>
+                        <outlet property="radiusSlider" destination="e3O-35-OPA" id="zNT-C7-yO6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
