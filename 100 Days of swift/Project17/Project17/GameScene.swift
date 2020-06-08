@@ -16,6 +16,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var possibleEnemies = ["ball", "hammer", "tv"]
     var gamerTimer: Timer?
     var isGameOver = false
+    var enemyCount = 0
+    let enemyMaxCount = 20
+    var timerTriggerSeconds = 1.0
     
     var score = 0 {
         didSet {
@@ -47,8 +50,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         physicsWorld.gravity = .zero
         physicsWorld.contactDelegate = self
         
-        gamerTimer = Timer.scheduledTimer(timeInterval: 0.35, target: self, selector: #selector(createEnemy), userInfo: nil, repeats: true)
-        
+        gamerTimer = Timer.scheduledTimer(timeInterval: timerTriggerSeconds, target: self, selector: #selector(createEnemy), userInfo: nil, repeats: true)
     }
     
     override func update(_ currentTime: TimeInterval) {
@@ -64,6 +66,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     @objc func createEnemy() {
+        if (enemyCount == enemyMaxCount) {
+            timerTriggerSeconds -= 0.1
+            enemyCount = 0
+            gamerTimer?.invalidate()
+            gamerTimer = Timer.scheduledTimer(timeInterval: timerTriggerSeconds, target: self, selector: #selector(createEnemy), userInfo: nil, repeats: true)
+        }
+        
         guard let enemy = possibleEnemies.randomElement() else { return }
         
         let sprite = SKSpriteNode(imageNamed: enemy)
@@ -76,6 +85,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         sprite.physicsBody?.angularVelocity = 5
         sprite.physicsBody?.linearDamping = 0
         sprite.physicsBody?.angularDamping = 0
+        sprite.name = "enemy"
+        
+        enemyCount += 1
     }
     
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -99,5 +111,17 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         player.removeFromParent()
         isGameOver = true
+        
+        for node in children {
+            if node.name == "enemy" {
+                node.removeFromParent()
+            }
+        }
+        
+        gamerTimer?.invalidate()
+    }
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        return
     }
 }
