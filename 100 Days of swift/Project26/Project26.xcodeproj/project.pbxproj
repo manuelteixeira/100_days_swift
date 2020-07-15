@@ -15,6 +15,7 @@
 		6F19ADAE24BC742600892DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F19ADAD24BC742600892DCC /* Assets.xcassets */; };
 		6F19ADB124BC742600892DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F19ADAF24BC742600892DCC /* LaunchScreen.storyboard */; };
 		6F19ADB924BC74AF00892DCC /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F19ADB824BC74AF00892DCC /* level1.txt */; };
+		6F6A7EBB24BF00030080FC5A /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F6A7EBA24BF00030080FC5A /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		6F19ADB024BC742600892DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F19ADB224BC742600892DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F19ADB824BC74AF00892DCC /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		6F6A7EBA24BF00030080FC5A /* level2.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				6F19ADAA24BC742300892DCC /* Main.storyboard */,
 				6F19ADAD24BC742600892DCC /* Assets.xcassets */,
 				6F19ADAF24BC742600892DCC /* LaunchScreen.storyboard */,
+				6F6A7EBA24BF00030080FC5A /* level2.txt */,
 				6F19ADB224BC742600892DCC /* Info.plist */,
 				6F19ADB824BC74AF00892DCC /* level1.txt */,
 			);
@@ -133,6 +136,7 @@
 			files = (
 				6F19ADB924BC74AF00892DCC /* level1.txt in Resources */,
 				6F19ADAC24BC742300892DCC /* Main.storyboard in Resources */,
+				6F6A7EBB24BF00030080FC5A /* level2.txt in Resources */,
 				6F19ADA324BC742300892DCC /* GameScene.sks in Resources */,
 				6F19ADAE24BC742600892DCC /* Assets.xcassets in Resources */,
 				6F19ADB124BC742600892DCC /* LaunchScreen.storyboard in Resources */,
