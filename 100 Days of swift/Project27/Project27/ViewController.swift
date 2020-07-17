@@ -17,13 +17,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        drawRectangle()
+        drawTwin()
     }
     
     @IBAction func redrawTapped(_ sender: Any) {
         currentDrawType += 1
         
-        if currentDrawType > 5 {
+        if currentDrawType > 7 {
             currentDrawType = 0
         }
         
@@ -40,6 +40,10 @@ class ViewController: UIViewController {
             drawLines()
         case 5:
             drawImagesAndText()
+        case 6:
+            drawEmoji()
+        case 7:
+            drawTwin()
         default:
             break
         }
@@ -169,6 +173,81 @@ class ViewController: UIViewController {
             
             let mouse = UIImage(named: "mouse")
             mouse?.draw(at: CGPoint(x: 300, y: 150))
+        }
+        
+        imageView.image = image
+    }
+    
+    func drawEmoji() {
+        let renderer = UIGraphicsImageRenderer(size: CGSize(width: 512, height: 512))
+        
+        let image = renderer.image { context in
+            let rectangle = CGRect(x: 0, y: 0, width: 512, height: 512).insetBy(dx: 10, dy: 10)
+            
+            context.cgContext.setFillColor(UIColor.yellow.cgColor)
+            context.cgContext.setStrokeColor(UIColor.orange.cgColor)
+            context.cgContext.setLineWidth(5)
+            context.cgContext.addEllipse(in: rectangle)
+            
+            context.cgContext.translateBy(x: 128, y: 64)
+            let leftEye = CGRect(x: 0, y: 0, width: 64, height: 128).insetBy(dx: 10, dy: 10)
+            context.cgContext.addEllipse(in: leftEye)
+            
+            context.cgContext.translateBy(x: 192, y: 0)
+            let rightEye = CGRect(x: 0, y: 0, width: 64, height: 128).insetBy(dx: 10, dy: 10)
+            context.cgContext.addEllipse(in: rightEye)
+            
+            context.cgContext.translateBy(x: -155, y: 288)
+            let smile = CGRect(x: 0, y: 0, width: 192, height: 5)
+            context.cgContext.addRect(smile)
+            
+            
+            context.cgContext.drawPath(using: .fillStroke)
+        }
+        
+        imageView.image = image
+    }
+    
+    func drawTwin() {
+        let renderer = UIGraphicsImageRenderer(size: CGSize(width: 512, height: 512))
+        
+        let image = renderer.image { context in
+            
+            let length: CGFloat = 64
+
+            context.cgContext.move(to: CGPoint(x: 10, y: 100))
+            context.cgContext.addLine(to: CGPoint(x: 10 + length, y: 100))
+            
+            context.cgContext.move(to: CGPoint(x: 42, y: 100))
+            context.cgContext.addLine(to: CGPoint(x: 42, y: 100 + length))
+            
+            context.cgContext.move(to: CGPoint(x: 90, y: 100))
+            context.cgContext.addLine(to: CGPoint(x: 90 + 10, y: 100 + length))
+            
+            context.cgContext.move(to: CGPoint(x: 90 + 10, y: 100 + length))
+            context.cgContext.addLine(to: CGPoint(x: 90 + 30, y: 100))
+            
+            context.cgContext.move(to: CGPoint(x: 90 + 30, y: 100))
+            context.cgContext.addLine(to: CGPoint(x: 90 + 40, y: 100 + length))
+            
+            context.cgContext.move(to: CGPoint(x: 90 + 40, y: 100 + length))
+            context.cgContext.addLine(to: CGPoint(x: 90 + 60, y: 100))
+            
+            context.cgContext.move(to: CGPoint(x: 170, y: 100))
+            context.cgContext.addLine(to: CGPoint(x: 170, y: 100 + length))
+            
+            context.cgContext.move(to: CGPoint(x: 190, y: 100))
+            context.cgContext.addLine(to: CGPoint(x: 190, y: 100 + length))
+            
+            context.cgContext.move(to: CGPoint(x: 190, y: 100))
+            context.cgContext.addLine(to: CGPoint(x: 220, y: 100 + length))
+            
+            context.cgContext.addLine(to: CGPoint(x: 220, y: 100))
+            
+            context.cgContext.setLineWidth(10)
+            context.cgContext.setStrokeColor(UIColor.green.cgColor)
+            context.cgContext.strokePath()
+            
         }
         
         imageView.image = image
