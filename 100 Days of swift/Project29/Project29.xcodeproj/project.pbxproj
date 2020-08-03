@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F9ABB5E24D87AC000433541 /* hitPlayer.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ABB5C24D87AC000433541 /* hitPlayer.sks */; };
+		6F9ABB5F24D87AC000433541 /* hitBuilding.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6F9ABB5D24D87AC000433541 /* hitBuilding.sks */; };
 		6FE28B8124D2A1730009466D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE28B8024D2A1730009466D /* AppDelegate.swift */; };
 		6FE28B8324D2A1730009466D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6FE28B8224D2A1730009466D /* GameScene.sks */; };
 		6FE28B8724D2A1730009466D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE28B8624D2A1730009466D /* GameScene.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F9ABB5C24D87AC000433541 /* hitPlayer.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitPlayer.sks; sourceTree = "<group>"; };
+		6F9ABB5D24D87AC000433541 /* hitBuilding.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hitBuilding.sks; sourceTree = "<group>"; };
 		6FE28B7D24D2A1730009466D /* Project29.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project29.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE28B8024D2A1730009466D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FE28B8224D2A1730009466D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				6FE28B8D24D2A1730009466D /* Assets.xcassets */,
 				6FE28B8F24D2A1730009466D /* LaunchScreen.storyboard */,
 				6FE28B9224D2A1730009466D /* Info.plist */,
+				6F9ABB5D24D87AC000433541 /* hitBuilding.sks */,
+				6F9ABB5C24D87AC000433541 /* hitPlayer.sks */,
 			);
 			path = Project29;
 			sourceTree = "<group>";
@@ -133,8 +139,10 @@
 			files = (
 				6FE28B8C24D2A1730009466D /* Main.storyboard in Resources */,
 				6FE28B8324D2A1730009466D /* GameScene.sks in Resources */,
+				6F9ABB5E24D87AC000433541 /* hitPlayer.sks in Resources */,
 				6FE28B8E24D2A1730009466D /* Assets.xcassets in Resources */,
 				6FE28B9124D2A1730009466D /* LaunchScreen.storyboard in Resources */,
+				6F9ABB5F24D87AC000433541 /* hitBuilding.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
