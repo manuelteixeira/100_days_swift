@@ -19,6 +19,9 @@ class GameViewController: UIViewController {
     @IBOutlet weak var velocityLabel: UILabel!
     @IBOutlet weak var launchButton: UIButton!
     @IBOutlet weak var playerNumber: UILabel!
+    @IBOutlet weak var player1ScoreLabel: UILabel!
+    @IBOutlet weak var player2ScoreLabel: UILabel!
+    @IBOutlet weak var windDirectionLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,6 +47,9 @@ class GameViewController: UIViewController {
         
         angleChanged(self)
         velocityChanged(self)
+        
+        guard let currentGame = currentGame else { return }
+        updateWindLabel(currentGame)
     }
 
     override var shouldAutorotate: Bool {
@@ -94,4 +100,15 @@ class GameViewController: UIViewController {
         velocityLabel.isHidden = false
         launchButton.isHidden = false
     }
+    
+    func updateWindLabel(_ currentGame: GameScene) {
+        if currentGame.wind > 0 {
+            windDirectionLabel.text = "Wind direction >>>>>"
+        } else if currentGame.wind < 0 {
+            windDirectionLabel.text = "<<<<< Wind direction"
+        } else {
+            windDirectionLabel.text = "No wind"
+        }
+    }
+
 }

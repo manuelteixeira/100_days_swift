@@ -23,6 +23,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var banana: SKSpriteNode!
     
     var currentPlayer = 1
+    var player1Score = 0
+    var player2Score = 0
+    var maxPlayersScore = 3
+    var wind: CGFloat!
     
     override func didMove(to view: SKView) {
         backgroundColor = UIColor(hue: 0.669, saturation: 0.99, brightness: 0.67, alpha: 1)
@@ -30,6 +34,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         createPlayers()
         
         physicsWorld.contactDelegate = self
+        physicsWorld.gravity = generateRandomWind()
+        
+        viewController?.player2ScoreLabel.text = "Score: \(player2Score)"
+        viewController?.player1ScoreLabel.text = "Score: \(player1Score)"
     }
     
     func createBuildings() {
@@ -112,7 +120,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         addChild(player1)
         
         player2 = SKSpriteNode(imageNamed: "player")
-        player2.name = "player1"
+        player2.name = "player2"
         player2.physicsBody = SKPhysicsBody(circleOfRadius: player2.size.width / 2)
         player2.physicsBody?.categoryBitMask = CollisionTypes.player.rawValue
         player2.physicsBody?.collisionBitMask = CollisionTypes.banana.rawValue
@@ -148,11 +156,15 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         
         if firstNode.name == "banana" && secondNode.name == "player1" {
+            player2Score += 1
             destroy(player: player1)
+            viewController?.player2ScoreLabel.text = "Score: \(player2Score)"
         }
         
         if firstNode.name == "banana" && secondNode.name == "player2" {
+            player1Score += 1
             destroy(player: player2)
+            viewController?.player1ScoreLabel.text = "Score: \(player1Score)"
         }
     }
     
@@ -165,11 +177,23 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         player.removeFromParent()
         banana.removeFromParent()
         
+        if player1Score == maxPlayersScore || player2Score == maxPlayersScore {
+            player1.removeFromParent()
+            player2.removeFromParent()
+            banana.removeFromParent()
+            return
+        }
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
             let newGame = GameScene(size: self.size)
             newGame.viewController = self.viewController
             self.viewController?.currentGame = newGame
             
+            newGame.player1Score = self.player1Score
+            newGame.player2Score = self.player2Score
+            self.viewController?.player2ScoreLabel.text = "Score: \(self.player2Score)"
+            self.viewController?.player1ScoreLabel.text = "Score: \(self.player1Score)"
+
             self.changePlayer()
             newGame.currentPlayer = self.currentPlayer
             
@@ -214,5 +238,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             banana = nil
             changePlayer()
         }
+    }
+    
+    func generateRandomWind() -> CGVector {
+        wind = CGFloat.random(in: -20...20)
+ 
+        return CGVector(dx: wind, dy: 0)
     }
 }
