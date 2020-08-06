@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		window = UIWindow(frame: UIScreen.main.bounds)
 		
 		let vc = SelectionViewController(style: .plain)
+        vc.images = convertImages()
 		let nc = UINavigationController(rootViewController: vc)
 		window?.rootViewController = nc
 		window?.makeKeyAndVisible()
@@ -45,6 +46,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 		// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	}
 
+    func convertImages() -> [String: UIImage] {
+        
+        var images = [String: UIImage]()
+        
+        let fm = FileManager.default
+        let path = Bundle.main.resourcePath!
+        let items = try! fm.contentsOfDirectory(atPath: path)
+                
+        for item in items {
+            if item.hasSuffix(".jpg") {
+                
+                let name = item
+                guard let path = Bundle.main.path(forResource: item, ofType: nil) else { return images }
+                guard let original = UIImage(contentsOfFile: path) else { return images }
 
+                let rendererRect = CGRect(origin: .zero, size: CGSize(width: 90, height: 90))
+                let renderer = UIGraphicsImageRenderer(size: rendererRect.size)
+
+                let rounded = renderer.image { ctx in
+                    ctx.cgContext.addEllipse(in: rendererRect)
+                    ctx.cgContext.clip()
+
+                    original.draw(in: rendererRect)
+                }
+                
+                images[name] = rounded
+            }
+        }
+        
+        return images
+    }
 }
 

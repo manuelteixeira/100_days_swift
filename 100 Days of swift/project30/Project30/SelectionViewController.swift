@@ -10,8 +10,8 @@ import UIKit
 
 class SelectionViewController: UITableViewController {
 	var items = [String]() // this is the array that will store the filenames to load
-	var viewControllers = [UIViewController]() // create a cache of the detail view controllers for faster loading
 	var dirty = false
+    var images: [String: UIImage]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +24,9 @@ class SelectionViewController: UITableViewController {
 
 		// load all the JPEGs into our array
 		let fm = FileManager.default
-
-		if let tempItems = try? fm.contentsOfDirectory(atPath: Bundle.main.resourcePath!) {
+        
+        guard let path = Bundle.main.resourcePath else { return }
+		if let tempItems = try? fm.contentsOfDirectory(atPath: path) {
 			for item in tempItems {
 				if item.range(of: "Large") != nil {
 					items.append(item)
@@ -62,22 +63,14 @@ class SelectionViewController: UITableViewController {
 		// find the image for this cell, and load its thumbnail
 		let currentImage = items[indexPath.row % items.count]
 		let imageRootName = currentImage.replacingOccurrences(of: "Large", with: "Thumb")
-		let path = Bundle.main.path(forResource: imageRootName, ofType: nil)!
-		let original = UIImage(contentsOfFile: path)!
-
-        let rendererRect = CGRect(origin: .zero, size: CGSize(width: 90, height: 90))
-		let renderer = UIGraphicsImageRenderer(size: rendererRect.size)
-
-		let rounded = renderer.image { ctx in
-			ctx.cgContext.addEllipse(in: rendererRect)
-			ctx.cgContext.clip()
-
-            original.draw(in: rendererRect)
-		}
-
-		cell.imageView?.image = rounded
+        
+        let image = images[imageRootName]
+        
+		cell.imageView?.image = image
 
 		// give the images a nice shadow to make them look a bit more dramatic
+        let rendererRect = CGRect(origin: .zero, size: CGSize(width: 90, height: 90))
+
 		cell.imageView?.layer.shadowColor = UIColor.black.cgColor
 		cell.imageView?.layer.shadowOpacity = 1
 		cell.imageView?.layer.shadowRadius = 10
@@ -99,8 +92,8 @@ class SelectionViewController: UITableViewController {
 		// mark us as not needing a counter reload when we return
 		dirty = false
 
-		// add to our view controller cache and show
-		viewControllers.append(vc)
-		navigationController!.pushViewController(vc, animated: true)
+        if let navigationController = navigationController {
+            navigationController.pushViewController(vc, animated: true)
+        }
 	}
 }
