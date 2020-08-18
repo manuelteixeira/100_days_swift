@@ -1,0 +1,1963 @@
+[
+    {
+        "countryName": "Somaliland",
+        "capitalName": "Hargeisa",
+        "CapitalLatitude": "9.55",
+        "CapitalLongitude": "44.050000",
+        "CountryCode": "NULL",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "South Georgia and South Sandwich Islands",
+        "capitalName": "King Edward Point",
+        "CapitalLatitude": "-54.283333",
+        "CapitalLongitude": "-36.500000",
+        "CountryCode": "GS",
+        "ContinentName": "Antarctica"
+    },
+    {
+        "countryName": "French Southern and Antarctic Lands",
+        "capitalName": "Port-aux-FranÃ§ais",
+        "CapitalLatitude": "-49.35",
+        "CapitalLongitude": "70.216667",
+        "CountryCode": "TF",
+        "ContinentName": "Antarctica"
+    },
+    {
+        "countryName": "Palestine",
+        "capitalName": "Jerusalem",
+        "CapitalLatitude": "31.766666666666666",
+        "CapitalLongitude": "35.233333",
+        "CountryCode": "PS",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Aland Islands",
+        "capitalName": "Mariehamn",
+        "CapitalLatitude": "60.116667",
+        "CapitalLongitude": "19.900000",
+        "CountryCode": "AX",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Nauru",
+        "capitalName": "Yaren",
+        "CapitalLatitude": "-0.5477",
+        "CapitalLongitude": "166.920867",
+        "CountryCode": "NR",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Saint Martin",
+        "capitalName": "Marigot",
+        "CapitalLatitude": "18.0731",
+        "CapitalLongitude": "-63.082200",
+        "CountryCode": "MF",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Tokelau",
+        "capitalName": "Atafu",
+        "CapitalLatitude": "-9.166667",
+        "CapitalLongitude": "-171.833333",
+        "CountryCode": "TK",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Western Sahara",
+        "capitalName": "El-AaiÃºn",
+        "CapitalLatitude": "27.153611",
+        "CapitalLongitude": "-13.203333",
+        "CountryCode": "EH",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Afghanistan",
+        "capitalName": "Kabul",
+        "CapitalLatitude": "34.516666666666666",
+        "CapitalLongitude": "69.183333",
+        "CountryCode": "AF",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Albania",
+        "capitalName": "Tirana",
+        "CapitalLatitude": "41.31666666666667",
+        "CapitalLongitude": "19.816667",
+        "CountryCode": "AL",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Algeria",
+        "capitalName": "Algiers",
+        "CapitalLatitude": "36.75",
+        "CapitalLongitude": "3.050000",
+        "CountryCode": "DZ",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "American Samoa",
+        "capitalName": "Pago Pago",
+        "CapitalLatitude": "-14.266666666666667",
+        "CapitalLongitude": "-170.700000",
+        "CountryCode": "AS",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Andorra",
+        "capitalName": "Andorra la Vella",
+        "CapitalLatitude": "42.5",
+        "CapitalLongitude": "1.516667",
+        "CountryCode": "AD",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Angola",
+        "capitalName": "Luanda",
+        "CapitalLatitude": "-8.833333333333334",
+        "CapitalLongitude": "13.216667",
+        "CountryCode": "AO",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Anguilla",
+        "capitalName": "The Valley",
+        "CapitalLatitude": "18.216666666666665",
+        "CapitalLongitude": "-63.050000",
+        "CountryCode": "AI",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Antigua and Barbuda",
+        "capitalName": "Saint John's",
+        "CapitalLatitude": "17.116666666666667",
+        "CapitalLongitude": "-61.850000",
+        "CountryCode": "AG",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Argentina",
+        "capitalName": "Buenos Aires",
+        "CapitalLatitude": "-34.583333333333336",
+        "CapitalLongitude": "-58.666667",
+        "CountryCode": "AR",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Armenia",
+        "capitalName": "Yerevan",
+        "CapitalLatitude": "40.166666666666664",
+        "CapitalLongitude": "44.500000",
+        "CountryCode": "AM",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Aruba",
+        "capitalName": "Oranjestad",
+        "CapitalLatitude": "12.516666666666667",
+        "CapitalLongitude": "-70.033333",
+        "CountryCode": "AW",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Australia",
+        "capitalName": "Canberra",
+        "CapitalLatitude": "-35.266666666666666",
+        "CapitalLongitude": "149.133333",
+        "CountryCode": "AU",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Austria",
+        "capitalName": "Vienna",
+        "CapitalLatitude": "48.2",
+        "CapitalLongitude": "16.366667",
+        "CountryCode": "AT",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Azerbaijan",
+        "capitalName": "Baku",
+        "CapitalLatitude": "40.38333333333333",
+        "CapitalLongitude": "49.866667",
+        "CountryCode": "AZ",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Bahamas",
+        "capitalName": "Nassau",
+        "CapitalLatitude": "25.083333333333332",
+        "CapitalLongitude": "-77.350000",
+        "CountryCode": "BS",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Bahrain",
+        "capitalName": "Manama",
+        "CapitalLatitude": "26.233333333333334",
+        "CapitalLongitude": "50.566667",
+        "CountryCode": "BH",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Bangladesh",
+        "capitalName": "Dhaka",
+        "CapitalLatitude": "23.716666666666665",
+        "CapitalLongitude": "90.400000",
+        "CountryCode": "BD",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Barbados",
+        "capitalName": "Bridgetown",
+        "CapitalLatitude": "13.1",
+        "CapitalLongitude": "-59.616667",
+        "CountryCode": "BB",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Belarus",
+        "capitalName": "Minsk",
+        "CapitalLatitude": "53.9",
+        "CapitalLongitude": "27.566667",
+        "CountryCode": "BY",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Belgium",
+        "capitalName": "Brussels",
+        "CapitalLatitude": "50.833333333333336",
+        "CapitalLongitude": "4.333333",
+        "CountryCode": "BE",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Belize",
+        "capitalName": "Belmopan",
+        "CapitalLatitude": "17.25",
+        "CapitalLongitude": "-88.766667",
+        "CountryCode": "BZ",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Benin",
+        "capitalName": "Porto-Novo",
+        "CapitalLatitude": "6.483333333333333",
+        "CapitalLongitude": "2.616667",
+        "CountryCode": "BJ",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Bermuda",
+        "capitalName": "Hamilton",
+        "CapitalLatitude": "32.28333333333333",
+        "CapitalLongitude": "-64.783333",
+        "CountryCode": "BM",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Bhutan",
+        "capitalName": "Thimphu",
+        "CapitalLatitude": "27.466666666666665",
+        "CapitalLongitude": "89.633333",
+        "CountryCode": "BT",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Bolivia",
+        "capitalName": "La Paz",
+        "CapitalLatitude": "-16.5",
+        "CapitalLongitude": "-68.150000",
+        "CountryCode": "BO",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Bosnia and Herzegovina",
+        "capitalName": "Sarajevo",
+        "CapitalLatitude": "43.86666666666667",
+        "CapitalLongitude": "18.416667",
+        "CountryCode": "BA",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Botswana",
+        "capitalName": "Gaborone",
+        "CapitalLatitude": "-24.633333333333333",
+        "CapitalLongitude": "25.900000",
+        "CountryCode": "BW",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Brazil",
+        "capitalName": "Brasilia",
+        "CapitalLatitude": "-15.783333333333333",
+        "CapitalLongitude": "-47.916667",
+        "CountryCode": "BR",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "British Virgin Islands",
+        "capitalName": "Road Town",
+        "CapitalLatitude": "18.416666666666668",
+        "CapitalLongitude": "-64.616667",
+        "CountryCode": "VG",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Brunei Darussalam",
+        "capitalName": "Bandar Seri Begawan",
+        "CapitalLatitude": "4.883333333333333",
+        "CapitalLongitude": "114.933333",
+        "CountryCode": "BN",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Bulgaria",
+        "capitalName": "Sofia",
+        "CapitalLatitude": "42.68333333333333",
+        "CapitalLongitude": "23.316667",
+        "CountryCode": "BG",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Burkina Faso",
+        "capitalName": "Ouagadougou",
+        "CapitalLatitude": "12.366666666666667",
+        "CapitalLongitude": "-1.516667",
+        "CountryCode": "BF",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Myanmar",
+        "capitalName": "Rangoon",
+        "CapitalLatitude": "16.8",
+        "CapitalLongitude": "96.150000",
+        "CountryCode": "MM",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Burundi",
+        "capitalName": "Bujumbura",
+        "CapitalLatitude": "-3.3666666666666667",
+        "CapitalLongitude": "29.350000",
+        "CountryCode": "BI",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Cambodia",
+        "capitalName": "Phnom Penh",
+        "CapitalLatitude": "11.55",
+        "CapitalLongitude": "104.916667",
+        "CountryCode": "KH",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Cameroon",
+        "capitalName": "Yaounde",
+        "CapitalLatitude": "3.8666666666666667",
+        "CapitalLongitude": "11.516667",
+        "CountryCode": "CM",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Canada",
+        "capitalName": "Ottawa",
+        "CapitalLatitude": "45.416666666666664",
+        "CapitalLongitude": "-75.700000",
+        "CountryCode": "CA",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Cape Verde",
+        "capitalName": "Praia",
+        "CapitalLatitude": "14.916666666666666",
+        "CapitalLongitude": "-23.516667",
+        "CountryCode": "CV",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Cayman Islands",
+        "capitalName": "George Town",
+        "CapitalLatitude": "19.3",
+        "CapitalLongitude": "-81.383333",
+        "CountryCode": "KY",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Central African Republic",
+        "capitalName": "Bangui",
+        "CapitalLatitude": "4.366666666666666",
+        "CapitalLongitude": "18.583333",
+        "CountryCode": "CF",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Chad",
+        "capitalName": "N'Djamena",
+        "CapitalLatitude": "12.1",
+        "CapitalLongitude": "15.033333",
+        "CountryCode": "TD",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Chile",
+        "capitalName": "Santiago",
+        "CapitalLatitude": "-33.45",
+        "CapitalLongitude": "-70.666667",
+        "CountryCode": "CL",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "China",
+        "capitalName": "Beijing",
+        "CapitalLatitude": "39.916666666666664",
+        "CapitalLongitude": "116.383333",
+        "CountryCode": "CN",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Christmas Island",
+        "capitalName": "The Settlement",
+        "CapitalLatitude": "-10.416666666666666",
+        "CapitalLongitude": "105.716667",
+        "CountryCode": "CX",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Cocos Islands",
+        "capitalName": "West Island",
+        "CapitalLatitude": "-12.166666666666666",
+        "CapitalLongitude": "96.833333",
+        "CountryCode": "CC",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Colombia",
+        "capitalName": "Bogota",
+        "CapitalLatitude": "4.6",
+        "CapitalLongitude": "-74.083333",
+        "CountryCode": "CO",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Comoros",
+        "capitalName": "Moroni",
+        "CapitalLatitude": "-11.7",
+        "CapitalLongitude": "43.233333",
+        "CountryCode": "KM",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Democratic Republic of the Congo",
+        "capitalName": "Kinshasa",
+        "CapitalLatitude": "-4.316666666666666",
+        "CapitalLongitude": "15.300000",
+        "CountryCode": "CD",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Republic of Congo",
+        "capitalName": "Brazzaville",
+        "CapitalLatitude": "-4.25",
+        "CapitalLongitude": "15.283333",
+        "CountryCode": "CG",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Cook Islands",
+        "capitalName": "Avarua",
+        "CapitalLatitude": "-21.2",
+        "CapitalLongitude": "-159.766667",
+        "CountryCode": "CK",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Costa Rica",
+        "capitalName": "San Jose",
+        "CapitalLatitude": "9.933333333333334",
+        "CapitalLongitude": "-84.083333",
+        "CountryCode": "CR",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Cote d'Ivoire",
+        "capitalName": "Yamoussoukro",
+        "CapitalLatitude": "6.816666666666666",
+        "CapitalLongitude": "-5.266667",
+        "CountryCode": "CI",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Croatia",
+        "capitalName": "Zagreb",
+        "CapitalLatitude": "45.8",
+        "CapitalLongitude": "16.000000",
+        "CountryCode": "HR",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Cuba",
+        "capitalName": "Havana",
+        "CapitalLatitude": "23.116666666666667",
+        "CapitalLongitude": "-82.350000",
+        "CountryCode": "CU",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "CuraÃ§ao",
+        "capitalName": "Willemstad",
+        "CapitalLatitude": "12.1",
+        "CapitalLongitude": "-68.916667",
+        "CountryCode": "CW",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Cyprus",
+        "capitalName": "Nicosia",
+        "CapitalLatitude": "35.166666666666664",
+        "CapitalLongitude": "33.366667",
+        "CountryCode": "CY",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Czech Republic",
+        "capitalName": "Prague",
+        "CapitalLatitude": "50.083333333333336",
+        "CapitalLongitude": "14.466667",
+        "CountryCode": "CZ",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Denmark",
+        "capitalName": "Copenhagen",
+        "CapitalLatitude": "55.666666666666664",
+        "CapitalLongitude": "12.583333",
+        "CountryCode": "DK",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Djibouti",
+        "capitalName": "Djibouti",
+        "CapitalLatitude": "11.583333333333334",
+        "CapitalLongitude": "43.150000",
+        "CountryCode": "DJ",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Dominica",
+        "capitalName": "Roseau",
+        "CapitalLatitude": "15.3",
+        "CapitalLongitude": "-61.400000",
+        "CountryCode": "DM",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Dominican Republic",
+        "capitalName": "Santo Domingo",
+        "CapitalLatitude": "18.466666666666665",
+        "CapitalLongitude": "-69.900000",
+        "CountryCode": "DO",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Ecuador",
+        "capitalName": "Quito",
+        "CapitalLatitude": "-0.21666666666666667",
+        "CapitalLongitude": "-78.500000",
+        "CountryCode": "EC",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Egypt",
+        "capitalName": "Cairo",
+        "CapitalLatitude": "30.05",
+        "CapitalLongitude": "31.250000",
+        "CountryCode": "EG",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "El Salvador",
+        "capitalName": "San Salvador",
+        "CapitalLatitude": "13.7",
+        "CapitalLongitude": "-89.200000",
+        "CountryCode": "SV",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Equatorial Guinea",
+        "capitalName": "Malabo",
+        "CapitalLatitude": "3.75",
+        "CapitalLongitude": "8.783333",
+        "CountryCode": "GQ",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Eritrea",
+        "capitalName": "Asmara",
+        "CapitalLatitude": "15.333333333333334",
+        "CapitalLongitude": "38.933333",
+        "CountryCode": "ER",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Estonia",
+        "capitalName": "Tallinn",
+        "CapitalLatitude": "59.43333333333333",
+        "CapitalLongitude": "24.716667",
+        "CountryCode": "EE",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Ethiopia",
+        "capitalName": "Addis Ababa",
+        "CapitalLatitude": "9.033333333333333",
+        "CapitalLongitude": "38.700000",
+        "CountryCode": "ET",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Falkland Islands",
+        "capitalName": "Stanley",
+        "CapitalLatitude": "-51.7",
+        "CapitalLongitude": "-57.850000",
+        "CountryCode": "FK",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Faroe Islands",
+        "capitalName": "Torshavn",
+        "CapitalLatitude": "62",
+        "CapitalLongitude": "-6.766667",
+        "CountryCode": "FO",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Fiji",
+        "capitalName": "Suva",
+        "CapitalLatitude": "-18.133333333333333",
+        "CapitalLongitude": "178.416667",
+        "CountryCode": "FJ",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Finland",
+        "capitalName": "Helsinki",
+        "CapitalLatitude": "60.166666666666664",
+        "CapitalLongitude": "24.933333",
+        "CountryCode": "FI",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "France",
+        "capitalName": "Paris",
+        "CapitalLatitude": "48.86666666666667",
+        "CapitalLongitude": "2.333333",
+        "CountryCode": "FR",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "French Polynesia",
+        "capitalName": "Papeete",
+        "CapitalLatitude": "-17.533333333333335",
+        "CapitalLongitude": "-149.566667",
+        "CountryCode": "PF",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Gabon",
+        "capitalName": "Libreville",
+        "CapitalLatitude": "0.38333333333333336",
+        "CapitalLongitude": "9.450000",
+        "CountryCode": "GA",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "The Gambia",
+        "capitalName": "Banjul",
+        "CapitalLatitude": "13.45",
+        "CapitalLongitude": "-16.566667",
+        "CountryCode": "GM",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Georgia",
+        "capitalName": "Tbilisi",
+        "CapitalLatitude": "41.68333333333333",
+        "CapitalLongitude": "44.833333",
+        "CountryCode": "GE",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Germany",
+        "capitalName": "Berlin",
+        "CapitalLatitude": "52.516666666666666",
+        "CapitalLongitude": "13.400000",
+        "CountryCode": "DE",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Ghana",
+        "capitalName": "Accra",
+        "CapitalLatitude": "5.55",
+        "CapitalLongitude": "-0.216667",
+        "CountryCode": "GH",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Gibraltar",
+        "capitalName": "Gibraltar",
+        "CapitalLatitude": "36.13333333333333",
+        "CapitalLongitude": "-5.350000",
+        "CountryCode": "GI",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Greece",
+        "capitalName": "Athens",
+        "CapitalLatitude": "37.983333333333334",
+        "CapitalLongitude": "23.733333",
+        "CountryCode": "GR",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Greenland",
+        "capitalName": "Nuuk",
+        "CapitalLatitude": "64.18333333333334",
+        "CapitalLongitude": "-51.750000",
+        "CountryCode": "GL",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Grenada",
+        "capitalName": "Saint George's",
+        "CapitalLatitude": "12.05",
+        "CapitalLongitude": "-61.750000",
+        "CountryCode": "GD",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Guam",
+        "capitalName": "Hagatna",
+        "CapitalLatitude": "13.466666666666667",
+        "CapitalLongitude": "144.733333",
+        "CountryCode": "GU",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Guatemala",
+        "capitalName": "Guatemala City",
+        "CapitalLatitude": "14.616666666666667",
+        "CapitalLongitude": "-90.516667",
+        "CountryCode": "GT",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Guernsey",
+        "capitalName": "Saint Peter Port",
+        "CapitalLatitude": "49.45",
+        "CapitalLongitude": "-2.533333",
+        "CountryCode": "GG",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Guinea",
+        "capitalName": "Conakry",
+        "CapitalLatitude": "9.5",
+        "CapitalLongitude": "-13.700000",
+        "CountryCode": "GN",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Guinea-Bissau",
+        "capitalName": "Bissau",
+        "CapitalLatitude": "11.85",
+        "CapitalLongitude": "-15.583333",
+        "CountryCode": "GW",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Guyana",
+        "capitalName": "Georgetown",
+        "CapitalLatitude": "6.8",
+        "CapitalLongitude": "-58.150000",
+        "CountryCode": "GY",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Haiti",
+        "capitalName": "Port-au-Prince",
+        "CapitalLatitude": "18.533333333333335",
+        "CapitalLongitude": "-72.333333",
+        "CountryCode": "HT",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Vatican City",
+        "capitalName": "Vatican City",
+        "CapitalLatitude": "41.9",
+        "CapitalLongitude": "12.450000",
+        "CountryCode": "VA",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Honduras",
+        "capitalName": "Tegucigalpa",
+        "CapitalLatitude": "14.1",
+        "CapitalLongitude": "-87.216667",
+        "CountryCode": "HN",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Hungary",
+        "capitalName": "Budapest",
+        "CapitalLatitude": "47.5",
+        "CapitalLongitude": "19.083333",
+        "CountryCode": "HU",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Iceland",
+        "capitalName": "Reykjavik",
+        "CapitalLatitude": "64.15",
+        "CapitalLongitude": "-21.950000",
+        "CountryCode": "IS",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "India",
+        "capitalName": "New Delhi",
+        "CapitalLatitude": "28.6",
+        "CapitalLongitude": "77.200000",
+        "CountryCode": "IN",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Indonesia",
+        "capitalName": "Jakarta",
+        "CapitalLatitude": "-6.166666666666667",
+        "CapitalLongitude": "106.816667",
+        "CountryCode": "ID",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Iran",
+        "capitalName": "Tehran",
+        "CapitalLatitude": "35.7",
+        "CapitalLongitude": "51.416667",
+        "CountryCode": "IR",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Iraq",
+        "capitalName": "Baghdad",
+        "CapitalLatitude": "33.333333333333336",
+        "CapitalLongitude": "44.400000",
+        "CountryCode": "IQ",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Ireland",
+        "capitalName": "Dublin",
+        "CapitalLatitude": "53.31666666666667",
+        "CapitalLongitude": "-6.233333",
+        "CountryCode": "IE",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Isle of Man",
+        "capitalName": "Douglas",
+        "CapitalLatitude": "54.15",
+        "CapitalLongitude": "-4.483333",
+        "CountryCode": "IM",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Israel",
+        "capitalName": "Jerusalem",
+        "CapitalLatitude": "31.766666666666666",
+        "CapitalLongitude": "35.233333",
+        "CountryCode": "IL",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Italy",
+        "capitalName": "Rome",
+        "CapitalLatitude": "41.9",
+        "CapitalLongitude": "12.483333",
+        "CountryCode": "IT",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Jamaica",
+        "capitalName": "Kingston",
+        "CapitalLatitude": "18",
+        "CapitalLongitude": "-76.800000",
+        "CountryCode": "JM",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Japan",
+        "capitalName": "Tokyo",
+        "CapitalLatitude": "35.68333333333333",
+        "CapitalLongitude": "139.750000",
+        "CountryCode": "JP",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Jersey",
+        "capitalName": "Saint Helier",
+        "CapitalLatitude": "49.18333333333333",
+        "CapitalLongitude": "-2.100000",
+        "CountryCode": "JE",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Jordan",
+        "capitalName": "Amman",
+        "CapitalLatitude": "31.95",
+        "CapitalLongitude": "35.933333",
+        "CountryCode": "JO",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Kazakhstan",
+        "capitalName": "Astana",
+        "CapitalLatitude": "51.166666666666664",
+        "CapitalLongitude": "71.416667",
+        "CountryCode": "KZ",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Kenya",
+        "capitalName": "Nairobi",
+        "CapitalLatitude": "-1.2833333333333332",
+        "CapitalLongitude": "36.816667",
+        "CountryCode": "KE",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Kiribati",
+        "capitalName": "Tarawa",
+        "CapitalLatitude": "-0.8833333333333333",
+        "CapitalLongitude": "169.533333",
+        "CountryCode": "KI",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "North Korea",
+        "capitalName": "Pyongyang",
+        "CapitalLatitude": "39.016666666666666",
+        "CapitalLongitude": "125.750000",
+        "CountryCode": "KP",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "South Korea",
+        "capitalName": "Seoul",
+        "CapitalLatitude": "37.55",
+        "CapitalLongitude": "126.983333",
+        "CountryCode": "KR",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Kosovo",
+        "capitalName": "Pristina",
+        "CapitalLatitude": "42.666666666666664",
+        "CapitalLongitude": "21.166667",
+        "CountryCode": "KO",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Kuwait",
+        "capitalName": "Kuwait City",
+        "CapitalLatitude": "29.366666666666667",
+        "CapitalLongitude": "47.966667",
+        "CountryCode": "KW",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Kyrgyzstan",
+        "capitalName": "Bishkek",
+        "CapitalLatitude": "42.86666666666667",
+        "CapitalLongitude": "74.600000",
+        "CountryCode": "KG",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Laos",
+        "capitalName": "Vientiane",
+        "CapitalLatitude": "17.966666666666665",
+        "CapitalLongitude": "102.600000",
+        "CountryCode": "LA",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Latvia",
+        "capitalName": "Riga",
+        "CapitalLatitude": "56.95",
+        "CapitalLongitude": "24.100000",
+        "CountryCode": "LV",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Lebanon",
+        "capitalName": "Beirut",
+        "CapitalLatitude": "33.86666666666667",
+        "CapitalLongitude": "35.500000",
+        "CountryCode": "LB",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Lesotho",
+        "capitalName": "Maseru",
+        "CapitalLatitude": "-29.316666666666666",
+        "CapitalLongitude": "27.483333",
+        "CountryCode": "LS",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Liberia",
+        "capitalName": "Monrovia",
+        "CapitalLatitude": "6.3",
+        "CapitalLongitude": "-10.800000",
+        "CountryCode": "LR",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Libya",
+        "capitalName": "Tripoli",
+        "CapitalLatitude": "32.88333333333333",
+        "CapitalLongitude": "13.166667",
+        "CountryCode": "LY",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Liechtenstein",
+        "capitalName": "Vaduz",
+        "CapitalLatitude": "47.13333333333333",
+        "CapitalLongitude": "9.516667",
+        "CountryCode": "LI",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Lithuania",
+        "capitalName": "Vilnius",
+        "CapitalLatitude": "54.68333333333333",
+        "CapitalLongitude": "25.316667",
+        "CountryCode": "LT",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Luxembourg",
+        "capitalName": "Luxembourg",
+        "CapitalLatitude": "49.6",
+        "CapitalLongitude": "6.116667",
+        "CountryCode": "LU",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Macedonia",
+        "capitalName": "Skopje",
+        "CapitalLatitude": "42",
+        "CapitalLongitude": "21.433333",
+        "CountryCode": "MK",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Madagascar",
+        "capitalName": "Antananarivo",
+        "CapitalLatitude": "-18.916666666666668",
+        "CapitalLongitude": "47.516667",
+        "CountryCode": "MG",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Malawi",
+        "capitalName": "Lilongwe",
+        "CapitalLatitude": "-13.966666666666667",
+        "CapitalLongitude": "33.783333",
+        "CountryCode": "MW",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Malaysia",
+        "capitalName": "Kuala Lumpur",
+        "CapitalLatitude": "3.1666666666666665",
+        "CapitalLongitude": "101.700000",
+        "CountryCode": "MY",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Maldives",
+        "capitalName": "Male",
+        "CapitalLatitude": "4.166666666666667",
+        "CapitalLongitude": "73.500000",
+        "CountryCode": "MV",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Mali",
+        "capitalName": "Bamako",
+        "CapitalLatitude": "12.65",
+        "CapitalLongitude": "-8.000000",
+        "CountryCode": "ML",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Malta",
+        "capitalName": "Valletta",
+        "CapitalLatitude": "35.88333333333333",
+        "CapitalLongitude": "14.500000",
+        "CountryCode": "MT",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Marshall Islands",
+        "capitalName": "Majuro",
+        "CapitalLatitude": "7.1",
+        "CapitalLongitude": "171.383333",
+        "CountryCode": "MH",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Mauritania",
+        "capitalName": "Nouakchott",
+        "CapitalLatitude": "18.066666666666666",
+        "CapitalLongitude": "-15.966667",
+        "CountryCode": "MR",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Mauritius",
+        "capitalName": "Port Louis",
+        "CapitalLatitude": "-20.15",
+        "CapitalLongitude": "57.483333",
+        "CountryCode": "MU",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Mexico",
+        "capitalName": "Mexico City",
+        "CapitalLatitude": "19.433333333333334",
+        "CapitalLongitude": "-99.133333",
+        "CountryCode": "MX",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Federated States of Micronesia",
+        "capitalName": "Palikir",
+        "CapitalLatitude": "6.916666666666667",
+        "CapitalLongitude": "158.150000",
+        "CountryCode": "FM",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Moldova",
+        "capitalName": "Chisinau",
+        "CapitalLatitude": "47",
+        "CapitalLongitude": "28.850000",
+        "CountryCode": "MD",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Monaco",
+        "capitalName": "Monaco",
+        "CapitalLatitude": "43.733333333333334",
+        "CapitalLongitude": "7.416667",
+        "CountryCode": "MC",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Mongolia",
+        "capitalName": "Ulaanbaatar",
+        "CapitalLatitude": "47.916666666666664",
+        "CapitalLongitude": "106.916667",
+        "CountryCode": "MN",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Montenegro",
+        "capitalName": "Podgorica",
+        "CapitalLatitude": "42.43333333333333",
+        "CapitalLongitude": "19.266667",
+        "CountryCode": "ME",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Montserrat",
+        "capitalName": "Plymouth",
+        "CapitalLatitude": "16.7",
+        "CapitalLongitude": "-62.216667",
+        "CountryCode": "MS",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Morocco",
+        "capitalName": "Rabat",
+        "CapitalLatitude": "34.016666666666666",
+        "CapitalLongitude": "-6.816667",
+        "CountryCode": "MA",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Mozambique",
+        "capitalName": "Maputo",
+        "CapitalLatitude": "-25.95",
+        "CapitalLongitude": "32.583333",
+        "CountryCode": "MZ",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Namibia",
+        "capitalName": "Windhoek",
+        "CapitalLatitude": "-22.566666666666666",
+        "CapitalLongitude": "17.083333",
+        "CountryCode": "NA",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Nepal",
+        "capitalName": "Kathmandu",
+        "CapitalLatitude": "27.716666666666665",
+        "CapitalLongitude": "85.316667",
+        "CountryCode": "NP",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Netherlands",
+        "capitalName": "Amsterdam",
+        "CapitalLatitude": "52.35",
+        "CapitalLongitude": "4.916667",
+        "CountryCode": "NL",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "New Caledonia",
+        "capitalName": "Noumea",
+        "CapitalLatitude": "-22.266666666666666",
+        "CapitalLongitude": "166.450000",
+        "CountryCode": "NC",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "New Zealand",
+        "capitalName": "Wellington",
+        "CapitalLatitude": "-41.3",
+        "CapitalLongitude": "174.783333",
+        "CountryCode": "NZ",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Nicaragua",
+        "capitalName": "Managua",
+        "CapitalLatitude": "12.133333333333333",
+        "CapitalLongitude": "-86.250000",
+        "CountryCode": "NI",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Niger",
+        "capitalName": "Niamey",
+        "CapitalLatitude": "13.516666666666667",
+        "CapitalLongitude": "2.116667",
+        "CountryCode": "NE",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Nigeria",
+        "capitalName": "Abuja",
+        "CapitalLatitude": "9.083333333333334",
+        "CapitalLongitude": "7.533333",
+        "CountryCode": "NG",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Niue",
+        "capitalName": "Alofi",
+        "CapitalLatitude": "-19.016666666666666",
+        "CapitalLongitude": "-169.916667",
+        "CountryCode": "NU",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Norfolk Island",
+        "capitalName": "Kingston",
+        "CapitalLatitude": "-29.05",
+        "CapitalLongitude": "167.966667",
+        "CountryCode": "NF",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Northern Mariana Islands",
+        "capitalName": "Saipan",
+        "CapitalLatitude": "15.2",
+        "CapitalLongitude": "145.750000",
+        "CountryCode": "MP",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Norway",
+        "capitalName": "Oslo",
+        "CapitalLatitude": "59.916666666666664",
+        "CapitalLongitude": "10.750000",
+        "CountryCode": "NO",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Oman",
+        "capitalName": "Muscat",
+        "CapitalLatitude": "23.616666666666667",
+        "CapitalLongitude": "58.583333",
+        "CountryCode": "OM",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Pakistan",
+        "capitalName": "Islamabad",
+        "CapitalLatitude": "33.68333333333333",
+        "CapitalLongitude": "73.050000",
+        "CountryCode": "PK",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Palau",
+        "capitalName": "Melekeok",
+        "CapitalLatitude": "7.483333333333333",
+        "CapitalLongitude": "134.633333",
+        "CountryCode": "PW",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Panama",
+        "capitalName": "Panama City",
+        "CapitalLatitude": "8.966666666666667",
+        "CapitalLongitude": "-79.533333",
+        "CountryCode": "PA",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Papua New Guinea",
+        "capitalName": "Port Moresby",
+        "CapitalLatitude": "-9.45",
+        "CapitalLongitude": "147.183333",
+        "CountryCode": "PG",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Paraguay",
+        "capitalName": "Asuncion",
+        "CapitalLatitude": "-25.266666666666666",
+        "CapitalLongitude": "-57.666667",
+        "CountryCode": "PY",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Peru",
+        "capitalName": "Lima",
+        "CapitalLatitude": "-12.05",
+        "CapitalLongitude": "-77.050000",
+        "CountryCode": "PE",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Philippines",
+        "capitalName": "Manila",
+        "CapitalLatitude": "14.6",
+        "CapitalLongitude": "120.966667",
+        "CountryCode": "PH",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Pitcairn Islands",
+        "capitalName": "Adamstown",
+        "CapitalLatitude": "-25.066666666666666",
+        "CapitalLongitude": "-130.083333",
+        "CountryCode": "PN",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Poland",
+        "capitalName": "Warsaw",
+        "CapitalLatitude": "52.25",
+        "CapitalLongitude": "21.000000",
+        "CountryCode": "PL",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Portugal",
+        "capitalName": "Lisbon",
+        "CapitalLatitude": "38.71666666666667",
+        "CapitalLongitude": "-9.133333",
+        "CountryCode": "PT",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Puerto Rico",
+        "capitalName": "San Juan",
+        "CapitalLatitude": "18.466666666666665",
+        "CapitalLongitude": "-66.116667",
+        "CountryCode": "PR",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Qatar",
+        "capitalName": "Doha",
+        "CapitalLatitude": "25.283333333333335",
+        "CapitalLongitude": "51.533333",
+        "CountryCode": "QA",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Romania",
+        "capitalName": "Bucharest",
+        "CapitalLatitude": "44.43333333333333",
+        "CapitalLongitude": "26.100000",
+        "CountryCode": "RO",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Russia",
+        "capitalName": "Moscow",
+        "CapitalLatitude": "55.75",
+        "CapitalLongitude": "37.600000",
+        "CountryCode": "RU",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Rwanda",
+        "capitalName": "Kigali",
+        "CapitalLatitude": "-1.95",
+        "CapitalLongitude": "30.050000",
+        "CountryCode": "RW",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Saint Barthelemy",
+        "capitalName": "Gustavia",
+        "CapitalLatitude": "17.883333333333333",
+        "CapitalLongitude": "-62.850000",
+        "CountryCode": "BL",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Saint Helena",
+        "capitalName": "Jamestown",
+        "CapitalLatitude": "-15.933333333333334",
+        "CapitalLongitude": "-5.716667",
+        "CountryCode": "SH",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Saint Kitts and Nevis",
+        "capitalName": "Basseterre",
+        "CapitalLatitude": "17.3",
+        "CapitalLongitude": "-62.716667",
+        "CountryCode": "KN",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Saint Lucia",
+        "capitalName": "Castries",
+        "CapitalLatitude": "14",
+        "CapitalLongitude": "-61.000000",
+        "CountryCode": "LC",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Saint Pierre and Miquelon",
+        "capitalName": "Saint-Pierre",
+        "CapitalLatitude": "46.766666666666666",
+        "CapitalLongitude": "-56.183333",
+        "CountryCode": "PM",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Saint Vincent and the Grenadines",
+        "capitalName": "Kingstown",
+        "CapitalLatitude": "13.133333333333333",
+        "CapitalLongitude": "-61.216667",
+        "CountryCode": "VC",
+        "ContinentName": "Central America"
+    },
+    {
+        "countryName": "Samoa",
+        "capitalName": "Apia",
+        "CapitalLatitude": "-13.816666666666666",
+        "CapitalLongitude": "-171.766667",
+        "CountryCode": "WS",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "San Marino",
+        "capitalName": "San Marino",
+        "CapitalLatitude": "43.93333333333333",
+        "CapitalLongitude": "12.416667",
+        "CountryCode": "SM",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Sao Tome and Principe",
+        "capitalName": "Sao Tome",
+        "CapitalLatitude": "0.3333333333333333",
+        "CapitalLongitude": "6.733333",
+        "CountryCode": "ST",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Saudi Arabia",
+        "capitalName": "Riyadh",
+        "CapitalLatitude": "24.65",
+        "CapitalLongitude": "46.700000",
+        "CountryCode": "SA",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Senegal",
+        "capitalName": "Dakar",
+        "CapitalLatitude": "14.733333333333333",
+        "CapitalLongitude": "-17.633333",
+        "CountryCode": "SN",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Serbia",
+        "capitalName": "Belgrade",
+        "CapitalLatitude": "44.833333333333336",
+        "CapitalLongitude": "20.500000",
+        "CountryCode": "RS",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Seychelles",
+        "capitalName": "Victoria",
+        "CapitalLatitude": "-4.616666666666667",
+        "CapitalLongitude": "55.450000",
+        "CountryCode": "SC",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Sierra Leone",
+        "capitalName": "Freetown",
+        "CapitalLatitude": "8.483333333333333",
+        "CapitalLongitude": "-13.233333",
+        "CountryCode": "SL",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Singapore",
+        "capitalName": "Singapore",
+        "CapitalLatitude": "1.2833333333333332",
+        "CapitalLongitude": "103.850000",
+        "CountryCode": "SG",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Sint Maarten",
+        "capitalName": "Philipsburg",
+        "CapitalLatitude": "18.016666666666666",
+        "CapitalLongitude": "-63.033333",
+        "CountryCode": "SX",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Slovakia",
+        "capitalName": "Bratislava",
+        "CapitalLatitude": "48.15",
+        "CapitalLongitude": "17.116667",
+        "CountryCode": "SK",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Slovenia",
+        "capitalName": "Ljubljana",
+        "CapitalLatitude": "46.05",
+        "CapitalLongitude": "14.516667",
+        "CountryCode": "SI",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Solomon Islands",
+        "capitalName": "Honiara",
+        "CapitalLatitude": "-9.433333333333334",
+        "CapitalLongitude": "159.950000",
+        "CountryCode": "SB",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Somalia",
+        "capitalName": "Mogadishu",
+        "CapitalLatitude": "2.066666666666667",
+        "CapitalLongitude": "45.333333",
+        "CountryCode": "SO",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "South Africa",
+        "capitalName": "Pretoria",
+        "CapitalLatitude": "-25.7",
+        "CapitalLongitude": "28.216667",
+        "CountryCode": "ZA",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "South Sudan",
+        "capitalName": "Juba",
+        "CapitalLatitude": "4.85",
+        "CapitalLongitude": "31.616667",
+        "CountryCode": "SS",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Spain",
+        "capitalName": "Madrid",
+        "CapitalLatitude": "40.4",
+        "CapitalLongitude": "-3.683333",
+        "CountryCode": "ES",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Sri Lanka",
+        "capitalName": "Colombo",
+        "CapitalLatitude": "6.916666666666667",
+        "CapitalLongitude": "79.833333",
+        "CountryCode": "LK",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Sudan",
+        "capitalName": "Khartoum",
+        "CapitalLatitude": "15.6",
+        "CapitalLongitude": "32.533333",
+        "CountryCode": "SD",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Suriname",
+        "capitalName": "Paramaribo",
+        "CapitalLatitude": "5.833333333333333",
+        "CapitalLongitude": "-55.166667",
+        "CountryCode": "SR",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Svalbard",
+        "capitalName": "Longyearbyen",
+        "CapitalLatitude": "78.21666666666667",
+        "CapitalLongitude": "15.633333",
+        "CountryCode": "SJ",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Swaziland",
+        "capitalName": "Mbabane",
+        "CapitalLatitude": "-26.316666666666666",
+        "CapitalLongitude": "31.133333",
+        "CountryCode": "SZ",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Sweden",
+        "capitalName": "Stockholm",
+        "CapitalLatitude": "59.333333333333336",
+        "CapitalLongitude": "18.050000",
+        "CountryCode": "SE",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Switzerland",
+        "capitalName": "Bern",
+        "CapitalLatitude": "46.916666666666664",
+        "CapitalLongitude": "7.466667",
+        "CountryCode": "CH",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Syria",
+        "capitalName": "Damascus",
+        "CapitalLatitude": "33.5",
+        "CapitalLongitude": "36.300000",
+        "CountryCode": "SY",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Taiwan",
+        "capitalName": "Taipei",
+        "CapitalLatitude": "25.033333333333335",
+        "CapitalLongitude": "121.516667",
+        "CountryCode": "TW",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Tajikistan",
+        "capitalName": "Dushanbe",
+        "CapitalLatitude": "38.55",
+        "CapitalLongitude": "68.766667",
+        "CountryCode": "TJ",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Tanzania",
+        "capitalName": "Dar es Salaam",
+        "CapitalLatitude": "-6.8",
+        "CapitalLongitude": "39.283333",
+        "CountryCode": "TZ",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Thailand",
+        "capitalName": "Bangkok",
+        "CapitalLatitude": "13.75",
+        "CapitalLongitude": "100.516667",
+        "CountryCode": "TH",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Timor-Leste",
+        "capitalName": "Dili",
+        "CapitalLatitude": "-8.583333333333334",
+        "CapitalLongitude": "125.600000",
+        "CountryCode": "TL",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Togo",
+        "capitalName": "Lome",
+        "CapitalLatitude": "6.116666666666666",
+        "CapitalLongitude": "1.216667",
+        "CountryCode": "TG",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Tonga",
+        "capitalName": "Nuku'alofa",
+        "CapitalLatitude": "-21.133333333333333",
+        "CapitalLongitude": "-175.200000",
+        "CountryCode": "TO",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Trinidad and Tobago",
+        "capitalName": "Port of Spain",
+        "CapitalLatitude": "10.65",
+        "CapitalLongitude": "-61.516667",
+        "CountryCode": "TT",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Tunisia",
+        "capitalName": "Tunis",
+        "CapitalLatitude": "36.8",
+        "CapitalLongitude": "10.183333",
+        "CountryCode": "TN",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Turkey",
+        "capitalName": "Ankara",
+        "CapitalLatitude": "39.93333333333333",
+        "CapitalLongitude": "32.866667",
+        "CountryCode": "TR",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Turkmenistan",
+        "capitalName": "Ashgabat",
+        "CapitalLatitude": "37.95",
+        "CapitalLongitude": "58.383333",
+        "CountryCode": "TM",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Turks and Caicos Islands",
+        "capitalName": "Grand Turk",
+        "CapitalLatitude": "21.466666666666665",
+        "CapitalLongitude": "-71.133333",
+        "CountryCode": "TC",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Tuvalu",
+        "capitalName": "Funafuti",
+        "CapitalLatitude": "-8.516666666666667",
+        "CapitalLongitude": "179.216667",
+        "CountryCode": "TV",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Uganda",
+        "capitalName": "Kampala",
+        "CapitalLatitude": "0.31666666666666665",
+        "CapitalLongitude": "32.550000",
+        "CountryCode": "UG",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Ukraine",
+        "capitalName": "Kyiv",
+        "CapitalLatitude": "50.43333333333333",
+        "CapitalLongitude": "30.516667",
+        "CountryCode": "UA",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "United Arab Emirates",
+        "capitalName": "Abu Dhabi",
+        "CapitalLatitude": "24.466666666666665",
+        "CapitalLongitude": "54.366667",
+        "CountryCode": "AE",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "United Kingdom",
+        "capitalName": "London",
+        "CapitalLatitude": "51.5",
+        "CapitalLongitude": "-0.083333",
+        "CountryCode": "GB",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "United States",
+        "capitalName": "Washington",
+        "CapitalLatitude": " D.C.",
+        "CapitalLongitude": "38.883333",
+        "CountryCode": "-77.000000",
+        "ContinentName": "US"
+    },
+    {
+        "countryName": "Uruguay",
+        "capitalName": "Montevideo",
+        "CapitalLatitude": "-34.85",
+        "CapitalLongitude": "-56.166667",
+        "CountryCode": "UY",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Uzbekistan",
+        "capitalName": "Tashkent",
+        "CapitalLatitude": "41.31666666666667",
+        "CapitalLongitude": "69.250000",
+        "CountryCode": "UZ",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Vanuatu",
+        "capitalName": "Port-Vila",
+        "CapitalLatitude": "-17.733333333333334",
+        "CapitalLongitude": "168.316667",
+        "CountryCode": "VU",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Venezuela",
+        "capitalName": "Caracas",
+        "CapitalLatitude": "10.483333333333333",
+        "CapitalLongitude": "-66.866667",
+        "CountryCode": "VE",
+        "ContinentName": "South America"
+    },
+    {
+        "countryName": "Vietnam",
+        "capitalName": "Hanoi",
+        "CapitalLatitude": "21.033333333333335",
+        "CapitalLongitude": "105.850000",
+        "CountryCode": "VN",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "US Virgin Islands",
+        "capitalName": "Charlotte Amalie",
+        "CapitalLatitude": "18.35",
+        "CapitalLongitude": "-64.933333",
+        "CountryCode": "VI",
+        "ContinentName": "North America"
+    },
+    {
+        "countryName": "Wallis and Futuna",
+        "capitalName": "Mata-Utu",
+        "CapitalLatitude": "-13.95",
+        "CapitalLongitude": "-171.933333",
+        "CountryCode": "WF",
+        "ContinentName": "Australia"
+    },
+    {
+        "countryName": "Yemen",
+        "capitalName": "Sanaa",
+        "CapitalLatitude": "15.35",
+        "CapitalLongitude": "44.200000",
+        "CountryCode": "YE",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Zambia",
+        "capitalName": "Lusaka",
+        "CapitalLatitude": "-15.416666666666666",
+        "CapitalLongitude": "28.283333",
+        "CountryCode": "ZM",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Zimbabwe",
+        "capitalName": "Harare",
+        "CapitalLatitude": "-17.816666666666666",
+        "CapitalLongitude": "31.033333",
+        "CountryCode": "ZW",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "US Minor Outlying Islands",
+        "capitalName": "Washington",
+        "CapitalLatitude": " D.C.",
+        "CapitalLongitude": "38.883333",
+        "CountryCode": "-77.000000",
+        "ContinentName": "UM"
+    },
+    {
+        "countryName": "Antarctica",
+        "capitalName": "N/A",
+        "CapitalLatitude": "0",
+        "CapitalLongitude": "0.000000",
+        "CountryCode": "AQ",
+        "ContinentName": "Antarctica"
+    },
+    {
+        "countryName": "Northern Cyprus",
+        "capitalName": "North Nicosia",
+        "CapitalLatitude": "35.183333",
+        "CapitalLongitude": "33.366667",
+        "CountryCode": "NULL",
+        "ContinentName": "Europe"
+    },
+    {
+        "countryName": "Hong Kong",
+        "capitalName": "N/A",
+        "CapitalLatitude": "0",
+        "CapitalLongitude": "0.000000",
+        "CountryCode": "HK",
+        "ContinentName": "Asia"
+    },
+    {
+        "countryName": "Heard Island and McDonald Islands",
+        "capitalName": "N/A",
+        "CapitalLatitude": "0",
+        "CapitalLongitude": "0.000000",
+        "CountryCode": "HM",
+        "ContinentName": "Antarctica"
+    },
+    {
+        "countryName": "British Indian Ocean Territory",
+        "capitalName": "Diego Garcia",
+        "CapitalLatitude": "-7.3",
+        "CapitalLongitude": "72.400000",
+        "CountryCode": "IO",
+        "ContinentName": "Africa"
+    },
+    {
+        "countryName": "Macau",
+        "capitalName": "N/A",
+        "CapitalLatitude": "0",
+        "CapitalLongitude": "0.000000",
+        "CountryCode": "MO",
+        "ContinentName": "Asia"
+    }
+]
+
